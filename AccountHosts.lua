@@ -1,5 +1,5 @@
-local fileread = io.open("D:/WAF/1.log","r")
-local filewrite = io.open("D:/WAF/2.log","a")
+local fileread = io.open("D:/WAF/access_log_2014-07-17-00.log","r")
+local filewrite = io.open("D:/WAF/account.log","a")
 local host = {}
 local account = {}
 local content = fileread:read()
