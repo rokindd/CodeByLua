@@ -1,4 +1,3 @@
-```lua
 local filea = io.open("D:/WAF/1.log","r")
 local fileb = io.open("D:/WAF/2.log","a")
 local host = {}
@@ -36,4 +35,3 @@ while n <= #host do
 end	
 io.close(filea)
 io.close(fileb)
-```
